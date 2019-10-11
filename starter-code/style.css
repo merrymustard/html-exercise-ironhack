@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation */
@@ -33,43 +36,90 @@ nav li{
 
 
 /* Header */
+
 .header {
-  background-image: url("images/city-scape.png");
+  /*background-image: url("images/city-scape.png");*/
   position: 0 0;
   repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
   height: 650px;
   position: relative;
-  padding: 0 40px;
+  padding: 10px 40px;
+  background: #20597A;
+
+}
+
+.header-content{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header-nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav > img{
+  width: 9%;
+  height: 9%;
+
 }
 
 /*Search Bar*/
 .search-container {
   float: right;
+  display: flex;
 }
 
-.search-container input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
+.search-container input {
+  background: rgb(31, 82, 111);
+  color: white;
+  padding: 10.5px;
   font-size: 17px;
-  border: none;
+  border: 2px solid #406B8B;
+  width: 1100px;
+  align-self: stretch;
+  font-size: 24px;
 }
 
 .search-container button {
+  border: 2px solid #406B8B;
+  background: rgb(31, 82, 111);
+  color: white;
   float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
+  padding: 16px 18px;
+  font-size: 16px;
   cursor: pointer;
 }
 
 .search-container button:hover {
   background: #ccc;
+  color: #C12127;
 }
+
+.access-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.access-text > a, p{
+  color: #C8DFF0;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.access-text a:hover{
+  color: #C63A3E;
+}
+
+.access-text img{
+  width: 40px;
+}
+
 
 /*Section 3*/
 .red-text span{
