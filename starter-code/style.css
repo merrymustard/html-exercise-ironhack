@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px 40px;;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 0 auto;
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li{
+  list-style-type: none;
+  text-align: center;
+}
+
+
+/* Header */
+.header {
+  background-image: url("images/city-scape.png");
+  position: 0 0;
+  repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 650px;
+  position: relative;
+  padding: 0 40px;
+}
+
+/*Search Bar*/
+.search-container {
+  float: right;
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+/*Section 3*/
+.red-text span{
+  color: #D33A30;
+}
