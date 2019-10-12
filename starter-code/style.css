@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 
 *{
   margin: 0;
@@ -12,6 +12,7 @@ nav {
   color: rgba(255,255,255,0.8);
   padding: 15px 40px;;
   height: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +25,7 @@ nav a {
 
 nav ul {
   margin: 0 auto;
-  width: 460px;
+  width: 660px;
   display: flex;
   justify-content: space-between;
 }
@@ -36,23 +37,18 @@ nav li{
 
 
 /* Header */
-
 .header {
-  /*background-image: url("images/city-scape.png");*/
+  background: #20597A;
+  background-image: url("images/city-scape.png");
   position: 0 0;
   repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  height: 650px;
+  height: 640px;
   position: relative;
   padding: 10px 40px;
-  background: #20597A;
 
-}
 
-.header-content{
-  width: 60%;
-  margin: 0 auto;
 }
 
 .header-nav{
@@ -64,7 +60,6 @@ nav li{
 .header-nav > img{
   width: 9%;
   height: 9%;
-
 }
 
 /*Search Bar*/
@@ -79,7 +74,7 @@ nav li{
   padding: 10.5px;
   font-size: 17px;
   border: 2px solid #406B8B;
-  width: 1100px;
+  width: 1120px;
   align-self: stretch;
   font-size: 24px;
 }
@@ -109,7 +104,7 @@ nav li{
   color: #C8DFF0;
   text-decoration: none;
   padding: 5px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .access-text a:hover{
@@ -119,6 +114,34 @@ nav li{
 .access-text img{
   width: 40px;
 }
+
+.header-content{
+  width: 78%;
+  margin: 8% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-content h1{
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+}
+.header-content p{
+  padding: 20px 0;
+  width: 50%;
+  font-size: 24px;
+}
+.header-content button{
+  background: rgb(240, 146, 51);
+  width: 20%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 22px;
+  color: white;
+}
+
 
 
 /*Section 3*/
