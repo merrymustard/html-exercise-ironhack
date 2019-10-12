@@ -35,7 +35,6 @@ nav li{
   text-align: center;
 }
 
-
 /* Header */
 .header {
   background: #20597A;
@@ -47,8 +46,6 @@ nav li{
   height: 640px;
   position: relative;
   padding: 10px 40px;
-
-
 }
 
 .header-nav{
@@ -116,7 +113,7 @@ nav li{
 }
 
 .header-content{
-  width: 78%;
+  width: 80%;
   margin: 8% auto;
   display: flex;
   flex-direction: column;
@@ -127,24 +124,107 @@ nav li{
   font-size: 70px;
   font-weight: 300;
 }
+
 .header-content p{
   padding: 20px 0;
   width: 50%;
   font-size: 24px;
 }
+
 .header-content button{
   background: rgb(240, 146, 51);
-  width: 20%;
-  padding: 12px;
+  width: 18%;
+}
+
+.button-styled{
+  padding: 12px 30px;
   border: none;
   border-radius: 25px;
   font-size: 22px;
   color: white;
 }
 
+/* Section 1 */
+#features{
+  background-color: rgb(39, 53, 71);
+  display: flex;
+}
 
+.wrapper-section-one{
+  width: 80%;
+  padding: 6% 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
 
-/*Section 3*/
+#features img {
+  width: 40%;
+}
+
+#features .content-section{
+  width: 50%;
+}
+
+.content-section a, p{
+  display: inline;
+}
+
+h2{
+  color: white;
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+#features p, li, a{
+  padding: 20px 0;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+#features a:hover{
+  color: #C12127;
+}
+
+#features ul{
+  padding-left: 28px;
+}
+
+#features button{
+  background-color: #C12127;
+  margin: 10px 0 20px 0;
+}
+
+/*Section 2*/
 .red-text span{
   color: #D33A30;
 }
+#npm-definition{
+   background-image: url("images/forklift.png");
+   position: 0 0;
+   repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 680px;
+   position: relative;
+   padding: 10px 40px;
+   display: flex;
+   align-items: center;
+ }
+
+ #npm-definition > .wrapper-section-one{
+   flex-direction: column;
+ }
+
+ #npm-definition p{
+   width: 40%;
+   padding: 20px 0;
+   font-size: 24px;
+ }
+
+ #npm-definition button{
+   background-color: rgb(39, 53, 71);
+   width: 15%;
+ }
